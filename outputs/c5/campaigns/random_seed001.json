@@ -1,0 +1,3140 @@
+{
+  "strategy": "random",
+  "seed": 1,
+  "config": {
+    "budget": 60,
+    "initial_points": 8,
+    "reference_interval": 0,
+    "repeat_interval": 0,
+    "reference_settings": {
+      "modulation_frequency": 4.0,
+      "modulation_depth": 1.0,
+      "pump_power": 1.0
+    },
+    "num_restarts": 8,
+    "raw_samples": 256
+  },
+  "records": [
+    {
+      "index": 0,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 3.986851526812904,
+        "modulation_depth": 1.8744983235724104,
+        "pump_power": 2.0797673735804247
+      },
+      "seed": 1016164991,
+      "status": "ok",
+      "score": 0.20572528023150743,
+      "score_uncertainty": 0.029442680561907682,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.012115776647598189,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.17628259966959975,
+          "best_validated_noise": 0.014743480066080051,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.23516796079341512,
+          "best_validated_noise": 0.014461122996458063,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.054993582889437675,
+      "extra": {}
+    },
+    {
+      "index": 1,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 2.406683586451525,
+        "modulation_depth": 2.431691995120997,
+        "pump_power": 0.17356918266351185
+      },
+      "seed": 1099128568,
+      "status": "constraint_violation",
+      "score": 0.0,
+      "score_uncertainty": 0.0,
+      "passed_constraints": false,
+      "constraint_reasons": [
+        "no_validated_frontier"
+      ],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.04337611934566851,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        }
+      ],
+      "elapsed_seconds": 0.04998358292505145,
+      "extra": {}
+    },
+    {
+      "index": 2,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.6903254604063191,
+        "modulation_depth": 1.3684866989243363,
+        "pump_power": 3.817080556935701
+      },
+      "seed": 1621709874,
+      "status": "ok",
+      "score": 0.171616822427792,
+      "score_uncertainty": 0.021379464605723014,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.014197689977638813,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15023735782206898,
+          "best_validated_noise": 0.019952528435586203,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.192996287033515,
+          "best_validated_noise": 0.020972170829564235,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.04762991680763662,
+      "extra": {}
+    },
+    {
+      "index": 3,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 8.329888016995168,
+        "modulation_depth": 0.9263038331912101,
+        "pump_power": 2.3879974108965807
+      },
+      "seed": 2041105244,
+      "status": "ok",
+      "score": 0.16175412501544673,
+      "score_uncertainty": 0.003291932845539941,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.013534961932013867,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.16504605786098667,
+          "best_validated_noise": 0.0168988509325732,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15846219216990678,
+          "best_validated_noise": 0.018307561566018645,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.04914854187518358,
+      "extra": {}
+    },
+    {
+      "index": 4,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 2.897606373869349,
+        "modulation_depth": 0.9520581612660624,
+        "pump_power": 0.2123637391896766
+      },
+      "seed": 74845286,
+      "status": "ok",
+      "score": 0.056492518276330714,
+      "score_uncertainty": 0.005201534290523696,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.02936069078643608,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.05129098398580702,
+          "best_validated_noise": 0.0346127048042579,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.06169405256685441,
+          "best_validated_noise": 0.03149178422994368,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        }
+      ],
+      "elapsed_seconds": 0.0505037079565227,
+      "extra": {}
+    },
+    {
+      "index": 5,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.0481659066754276,
+        "modulation_depth": 2.3630626243759543,
+        "pump_power": 3.4722333272053643
+      },
+      "seed": 309580410,
+      "status": "ok",
+      "score": 0.15790714063982958,
+      "score_uncertainty": 0.022008593968509016,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.02310839331471236,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.13589854667132056,
+          "best_validated_noise": 0.022820290665735887,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1799157346083386,
+          "best_validated_noise": 0.02277350302195965,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.048031749902293086,
+      "extra": {}
+    },
+    {
+      "index": 6,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 9.808026245650918,
+        "modulation_depth": 1.4013391710729086,
+        "pump_power": 1.295056686181488
+      },
+      "seed": 1767258088,
+      "status": "ok",
+      "score": 0.19158832953048494,
+      "score_uncertainty": 0.0005687867159941684,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.010061266306832668,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.19101954281449077,
+          "best_validated_noise": 0.011779451662274835,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1921571162464791,
+          "best_validated_noise": 0.01156857675070418,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.05445583420805633,
+      "extra": {}
+    },
+    {
+      "index": 7,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.2059923265786914,
+        "modulation_depth": 2.3558563818689815,
+        "pump_power": 0.558826257188357
+      },
+      "seed": 2037209174,
+      "status": "ok",
+      "score": 0.16611201364794428,
+      "score_uncertainty": 0.0014800638344111825,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.013234323222269414,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.16759207748235547,
+          "best_validated_noise": 0.016481584503528907,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1646319498135331,
+          "best_validated_noise": 0.01707361003729338,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.05170154199004173,
+      "extra": {}
+    },
+    {
+      "index": 8,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.430890232036006,
+        "modulation_depth": 2.1571707935463884,
+        "pump_power": 0.6225218162662678
+      },
+      "seed": 535214420,
+      "status": "ok",
+      "score": 0.23143962812113295,
+      "score_uncertainty": 0.0013237384633192487,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.013827762347594278,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.2301158896578137,
+          "best_validated_noise": 0.01534608559451894,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.2327633665844522,
+          "best_validated_noise": 0.014892578150238516,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.04540904192253947,
+      "extra": {}
+    },
+    {
+      "index": 9,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 5.384883019324538,
+        "modulation_depth": 1.4590858369299278,
+        "pump_power": 3.7135923992021813
+      },
+      "seed": 669652943,
+      "status": "ok",
+      "score": 0.22631468572953334,
+      "score_uncertainty": 0.0006577354212091852,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.016719167968743388,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.22565695030832417,
+          "best_validated_noise": 0.016088291385763787,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.22697242115074254,
+          "best_validated_noise": 0.01593656469526207,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.048218333162367344,
+      "extra": {}
+    },
+    {
+      "index": 10,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 4.286245950302382,
+        "modulation_depth": 2.723333316151707,
+        "pump_power": 1.4362119831531457
+      },
+      "seed": 1866217507,
+      "status": "constraint_violation",
+      "score": 0.09893568771287597,
+      "score_uncertainty": 0.09893568771287596,
+      "passed_constraints": false,
+      "constraint_reasons": [
+        "no_validated_frontier"
+      ],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.016729374240933074,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.19787137542575195,
+          "best_validated_noise": 0.02031929368613721,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.04619054216891527,
+      "extra": {}
+    },
+    {
+      "index": 11,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 5.069447494913737,
+        "modulation_depth": 1.0570170039891402,
+        "pump_power": 1.9511865948733784
+      },
+      "seed": 909086626,
+      "status": "ok",
+      "score": 0.1495851715877674,
+      "score_uncertainty": 0.03003319325037633,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.014978056029104568,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.11955197833739109,
+          "best_validated_noise": 0.014134406498782668,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.17961836483814375,
+          "best_validated_noise": 0.01405594077840598,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.04405412496998906,
+      "extra": {}
+    },
+    {
+      "index": 12,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.5647024206773121,
+        "modulation_depth": 2.084649167508036,
+        "pump_power": 2.9183079637813814
+      },
+      "seed": 586626705,
+      "status": "ok",
+      "score": 0.1834494193546526,
+      "score_uncertainty": 0.023838219798787932,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.011674532893320388,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15961119955586464,
+          "best_validated_noise": 0.018077760088827072,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.2072876391534405,
+          "best_validated_noise": 0.01882400370011102,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.04472654196433723,
+      "extra": {}
+    },
+    {
+      "index": 13,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 4.036885531993687,
+        "modulation_depth": 2.2019566812729305,
+        "pump_power": 0.4200316157106162
+      },
+      "seed": 1777477784,
+      "status": "ok",
+      "score": 0.15146483401812103,
+      "score_uncertainty": 0.0024188103959056624,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.021253206086975257,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1538836444140267,
+          "best_validated_noise": 0.019223271117194664,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.14904602362221536,
+          "best_validated_noise": 0.020190795275556932,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.08890562504529953,
+      "extra": {}
+    },
+    {
+      "index": 14,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 5.525524318676483,
+        "modulation_depth": 1.5314148408206927,
+        "pump_power": 0.803414991292155
+      },
+      "seed": 551886180,
+      "status": "ok",
+      "score": 0.26724035294049553,
+      "score_uncertainty": 0.0006940611478154779,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.0077225961549948615,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.2665462917926801,
+          "best_validated_noise": 0.009625665998151296,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.26793441408831103,
+          "best_validated_noise": 0.009366095969601479,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.05143462517298758,
+      "extra": {}
+    },
+    {
+      "index": 15,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 3.581353889175795,
+        "modulation_depth": 2.2931991521957418,
+        "pump_power": 3.581542986839176
+      },
+      "seed": 878748453,
+      "status": "constraint_violation",
+      "score": 0.0838766022277398,
+      "score_uncertainty": 0.08387660222773978,
+      "passed_constraints": false,
+      "constraint_reasons": [
+        "no_validated_frontier"
+      ],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.02119633777056963,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1677532044554796,
+          "best_validated_noise": 0.02483474687133022,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        }
+      ],
+      "elapsed_seconds": 0.04640895803458989,
+      "extra": {}
+    },
+    {
+      "index": 16,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.641780504171339,
+        "modulation_depth": 2.840781751904545,
+        "pump_power": 3.2241359873465516
+      },
+      "seed": 1382612244,
+      "status": "failed",
+      "score": null,
+      "score_uncertainty": null,
+      "passed_constraints": false,
+      "constraint_reasons": [],
+      "failure_reason": "laser_unlock",
+      "message": "laser lost lock at high modulation depth and pump power",
+      "atomicity_ratio": null,
+      "folds": [],
+      "elapsed_seconds": 4.417030140757561e-06,
+      "extra": {}
+    },
+    {
+      "index": 17,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 5.514892763455327,
+        "modulation_depth": 2.1941454848353743,
+        "pump_power": 2.5098168924018935
+      },
+      "seed": 1180243456,
+      "status": "ok",
+      "score": 0.2937467812201807,
+      "score_uncertainty": 0.003305372756067015,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.009093613774787106,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.29705215397624773,
+          "best_validated_noise": 0.013558459563014522,
+          "maximum_validated_capture": 1.25,
+          "validated_count": 5
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.2904414084641137,
+          "best_validated_noise": 0.014029212593129536,
+          "maximum_validated_capture": 1.25,
+          "validated_count": 5
+        }
+      ],
+      "elapsed_seconds": 0.050262375036254525,
+      "extra": {}
+    },
+    {
+      "index": 18,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.311265883924215,
+        "modulation_depth": 0.13842847550438955,
+        "pump_power": 2.310560380556595
+      },
+      "seed": 184123696,
+      "status": "constraint_violation",
+      "score": 0.0,
+      "score_uncertainty": 0.0,
+      "passed_constraints": false,
+      "constraint_reasons": [
+        "no_validated_frontier"
+      ],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.13312235970743963,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        }
+      ],
+      "elapsed_seconds": 0.04725754214450717,
+      "extra": {}
+    },
+    {
+      "index": 19,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 8.637020854297294,
+        "modulation_depth": 2.2284195128699236,
+        "pump_power": 0.699203761592505
+      },
+      "seed": 59182744,
+      "status": "ok",
+      "score": 0.18024883469588932,
+      "score_uncertainty": 0.026040847665930178,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.021293352023555055,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15420798702995914,
+          "best_validated_noise": 0.019158402594008174,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.2062896823618195,
+          "best_validated_noise": 0.018665618119870785,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.05137379188090563,
+      "extra": {}
+    },
+    {
+      "index": 20,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 6.220793946110267,
+        "modulation_depth": 1.8406887481226326,
+        "pump_power": 1.2211494843728568
+      },
+      "seed": 1858836761,
+      "status": "ok",
+      "score": 0.3345480131545659,
+      "score_uncertainty": 0.03431648129862702,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.0024803396424951116,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.3688644944531929,
+          "best_validated_noise": 0.004540229999230605,
+          "maximum_validated_capture": 1.25,
+          "validated_count": 5
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.30023153185593887,
+          "best_validated_noise": 0.004400394439827469,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.057984666898846626,
+      "extra": {}
+    },
+    {
+      "index": 21,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 4.200893188976985,
+        "modulation_depth": 2.1915936476306435,
+        "pump_power": 1.8439179310738483
+      },
+      "seed": 1618157078,
+      "status": "ok",
+      "score": 0.18026623387313487,
+      "score_uncertainty": 0.03020923839008868,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.013275962663953571,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.21047547226322355,
+          "best_validated_noise": 0.018209135688340605,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15005699548304618,
+          "best_validated_noise": 0.019988600903390767,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.045028749853372574,
+      "extra": {}
+    },
+    {
+      "index": 22,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 8.67396621835869,
+        "modulation_depth": 2.638892201755494,
+        "pump_power": 0.78646844238377
+      },
+      "seed": 1799343697,
+      "status": "ok",
+      "score": 0.1456041112787543,
+      "score_uncertainty": 0.022697523350241552,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.016565768960381644,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.16830163462899586,
+          "best_validated_noise": 0.02475475480565062,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.12290658792851275,
+          "best_validated_noise": 0.025418682414297452,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.04564770800061524,
+      "extra": {}
+    },
+    {
+      "index": 23,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.2538568510475767,
+        "modulation_depth": 1.3411378028187466,
+        "pump_power": 2.7231610742451116
+      },
+      "seed": 1155653964,
+      "status": "ok",
+      "score": 0.14873218141871425,
+      "score_uncertainty": 0.007742435245120193,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.016293296192660917,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15647461666383444,
+          "best_validated_noise": 0.022726493489545745,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.14098974617359405,
+          "best_validated_noise": 0.021727574628046396,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.04584758379496634,
+      "extra": {}
+    },
+    {
+      "index": 24,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 9.69062118624494,
+        "modulation_depth": 1.1115562820286597,
+        "pump_power": 2.1670110372697358
+      },
+      "seed": 1755663523,
+      "status": "ok",
+      "score": 0.11821973606338274,
+      "score_uncertainty": 0.018506639996164757,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.017060689960936147,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.09971309606721797,
+          "best_validated_noise": 0.020086071179834613,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1367263760595475,
+          "best_validated_noise": 0.022637568974070394,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.04371858388185501,
+      "extra": {}
+    },
+    {
+      "index": 25,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 2.89877476341954,
+        "modulation_depth": 2.087622156243539,
+        "pump_power": 2.4266638060597283
+      },
+      "seed": 708093468,
+      "status": "ok",
+      "score": 0.14987112241635162,
+      "score_uncertainty": 0.021600463773706197,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.015181630691433173,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.12827065864264542,
+          "best_validated_noise": 0.02434586827147092,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1714715861900578,
+          "best_validated_noise": 0.02409532136507661,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.04519716603681445,
+      "extra": {}
+    },
+    {
+      "index": 26,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.832252940484938,
+        "modulation_depth": 0.9951662886987965,
+        "pump_power": 2.619735183904793
+      },
+      "seed": 972122756,
+      "status": "ok",
+      "score": 0.09745588858871945,
+      "score_uncertainty": 0.0206951097569698,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.02782858275433864,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.07676077883174964,
+          "best_validated_noise": 0.02697176635047511,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.11815099834568925,
+          "best_validated_noise": 0.026224143773849174,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.049143708078190684,
+      "extra": {}
+    },
+    {
+      "index": 27,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.80416827892947,
+        "modulation_depth": 1.6372408698062857,
+        "pump_power": 1.120392646265009
+      },
+      "seed": 1693137747,
+      "status": "ok",
+      "score": 0.1354205402563844,
+      "score_uncertainty": 0.028539159531593902,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.014165191947555366,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.16395969978797828,
+          "best_validated_noise": 0.017208060042404345,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.10688138072479048,
+          "best_validated_noise": 0.01793558578256286,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        }
+      ],
+      "elapsed_seconds": 0.044577999971807,
+      "extra": {}
+    },
+    {
+      "index": 28,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.844413157825007,
+        "modulation_depth": 2.5861152656835404,
+        "pump_power": 3.503489411775683
+      },
+      "seed": 266112162,
+      "status": "failed",
+      "score": null,
+      "score_uncertainty": null,
+      "passed_constraints": false,
+      "constraint_reasons": [],
+      "failure_reason": "laser_unlock",
+      "message": "laser lost lock at high modulation depth and pump power",
+      "atomicity_ratio": null,
+      "folds": [],
+      "elapsed_seconds": 4.417030140757561e-06,
+      "extra": {}
+    },
+    {
+      "index": 29,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 6.632213100092869,
+        "modulation_depth": 1.0992750204069879,
+        "pump_power": 2.3857421334050826
+      },
+      "seed": 651105937,
+      "status": "ok",
+      "score": 0.21114026073054082,
+      "score_uncertainty": 0.02921143419991363,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.010571922114009985,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1819288265306272,
+          "best_validated_noise": 0.013613343726400058,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.24035169493045447,
+          "best_validated_noise": 0.013503277983661967,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.07734095910564065,
+      "extra": {}
+    },
+    {
+      "index": 30,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 2.1950623317850386,
+        "modulation_depth": 2.019036162460163,
+        "pump_power": 0.33129291785954296
+      },
+      "seed": 267191830,
+      "status": "constraint_violation",
+      "score": 0.027858473686308706,
+      "score_uncertainty": 0.027858473686308702,
+      "passed_constraints": false,
+      "constraint_reasons": [
+        "no_validated_frontier"
+      ],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.037890728450504015,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.05571694737261741,
+          "best_validated_noise": 0.033284915788214776,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        }
+      ],
+      "elapsed_seconds": 0.045806625159457326,
+      "extra": {}
+    },
+    {
+      "index": 31,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.66394067606734,
+        "modulation_depth": 2.626422997183104,
+        "pump_power": 3.1947002811519565
+      },
+      "seed": 973879301,
+      "status": "failed",
+      "score": null,
+      "score_uncertainty": null,
+      "passed_constraints": false,
+      "constraint_reasons": [],
+      "failure_reason": "laser_unlock",
+      "message": "laser lost lock at high modulation depth and pump power",
+      "atomicity_ratio": null,
+      "folds": [],
+      "elapsed_seconds": 5.207955837249756e-06,
+      "extra": {}
+    },
+    {
+      "index": 32,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 5.799676464217596,
+        "modulation_depth": 2.826220199141549,
+        "pump_power": 2.682876937069046
+      },
+      "seed": 2097889540,
+      "status": "ok",
+      "score": 0.19058272136107987,
+      "score_uncertainty": 0.0010408824782358883,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.011642231781671923,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.18954183888284398,
+          "best_validated_noise": 0.0215687241675734,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.19162360383931576,
+          "best_validated_noise": 0.021256459424102637,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.05542795802466571,
+      "extra": {}
+    },
+    {
+      "index": 33,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 8.152926028135113,
+        "modulation_depth": 2.3835171523958656,
+        "pump_power": 2.216019569168232
+      },
+      "seed": 287852352,
+      "status": "constraint_violation",
+      "score": 0.0,
+      "score_uncertainty": 0.0,
+      "passed_constraints": false,
+      "constraint_reasons": [
+        "no_validated_frontier"
+      ],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.02672625839634684,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        }
+      ],
+      "elapsed_seconds": 0.046067249961197376,
+      "extra": {}
+    },
+    {
+      "index": 34,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 3.3381582833400847,
+        "modulation_depth": 1.7894792765981398,
+        "pump_power": 0.9970446935378978
+      },
+      "seed": 823155374,
+      "status": "ok",
+      "score": 0.15497647131184067,
+      "score_uncertainty": 8.472906904653799e-05,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.01987560346183543,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15489174224279412,
+          "best_validated_noise": 0.01899898630364149,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1550612003808872,
+          "best_validated_noise": 0.018968032694925238,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.045009082881733775,
+      "extra": {}
+    },
+    {
+      "index": 35,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.115378034509528,
+        "modulation_depth": 1.0896915319344338,
+        "pump_power": 1.998106502279155
+      },
+      "seed": 865678546,
+      "status": "ok",
+      "score": 0.12867225996426315,
+      "score_uncertainty": 0.004910799783123428,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.022470948497812022,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.13358305974738657,
+          "best_validated_noise": 0.023244618217442926,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.12376146018113972,
+          "best_validated_noise": 0.025094805456262425,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.04361537494696677,
+      "extra": {}
+    },
+    {
+      "index": 36,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 6.903304437882784,
+        "modulation_depth": 1.116069341173029,
+        "pump_power": 2.3861744383687338
+      },
+      "seed": 1941050025,
+      "status": "ok",
+      "score": 0.18411943267128644,
+      "score_uncertainty": 0.02526465660860655,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.024069332669753606,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.209384089279893,
+          "best_validated_noise": 0.018085455013817527,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1588547760626799,
+          "best_validated_noise": 0.018229044787464024,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.047125458950176835,
+      "extra": {}
+    },
+    {
+      "index": 37,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 4.391713640464118,
+        "modulation_depth": 2.1834985136993965,
+        "pump_power": 3.5049013281047277
+      },
+      "seed": 436916801,
+      "status": "ok",
+      "score": 0.10875748959506527,
+      "score_uncertainty": 0.01727369796854951,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.021342633049445774,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.12603118756361478,
+          "best_validated_noise": 0.03085021840727325,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.09148379162651576,
+          "best_validated_noise": 0.03627743125602264,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 1
+        }
+      ],
+      "elapsed_seconds": 0.04552383301779628,
+      "extra": {}
+    },
+    {
+      "index": 38,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 3.5092523269180758,
+        "modulation_depth": 1.2050873432648253,
+        "pump_power": 1.8567603313106598
+      },
+      "seed": 1078591221,
+      "status": "ok",
+      "score": 0.14818589546977526,
+      "score_uncertainty": 0.00752233772516328,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.016760046024821656,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15570823319493854,
+          "best_validated_noise": 0.01876721064698661,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.14066355774461198,
+          "best_validated_noise": 0.021812433135722592,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.04759279196150601,
+      "extra": {}
+    },
+    {
+      "index": 39,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 9.355697815818353,
+        "modulation_depth": 2.749287516177767,
+        "pump_power": 3.167259352496365
+      },
+      "seed": 563313608,
+      "status": "failed",
+      "score": null,
+      "score_uncertainty": null,
+      "passed_constraints": false,
+      "constraint_reasons": [],
+      "failure_reason": "laser_unlock",
+      "message": "laser lost lock at high modulation depth and pump power",
+      "atomicity_ratio": null,
+      "folds": [],
+      "elapsed_seconds": 5.833106115460396e-06,
+      "extra": {}
+    },
+    {
+      "index": 40,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.5801565998816969,
+        "modulation_depth": 2.696638862730323,
+        "pump_power": 2.35567692240183
+      },
+      "seed": 42568569,
+      "status": "ok",
+      "score": 0.10576851076727126,
+      "score_uncertainty": 0.021221836044520576,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.019857369108375947,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.08454667472275068,
+          "best_validated_noise": 0.033090665055449865,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.12699034681179183,
+          "best_validated_noise": 0.030923442241435686,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.048341042129322886,
+      "extra": {}
+    },
+    {
+      "index": 41,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 3.664918640190966,
+        "modulation_depth": 0.5378215679367332,
+        "pump_power": 1.9230540039347184
+      },
+      "seed": 1611395863,
+      "status": "ok",
+      "score": 0.060580974013070735,
+      "score_uncertainty": 0.006427464461799884,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.02700580885318019,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.06700843847487062,
+          "best_validated_noise": 0.029897468457538812,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.05415350955127085,
+          "best_validated_noise": 0.033753947134618746,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        }
+      ],
+      "elapsed_seconds": 0.046658832812681794,
+      "extra": {}
+    },
+    {
+      "index": 42,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 9.609881595021932,
+        "modulation_depth": 2.7338647256210304,
+        "pump_power": 2.0357499705057567
+      },
+      "seed": 133188514,
+      "status": "constraint_violation",
+      "score": 0.0,
+      "score_uncertainty": 0.0,
+      "passed_constraints": false,
+      "constraint_reasons": [
+        "no_validated_frontier"
+      ],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.020184319957143947,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        }
+      ],
+      "elapsed_seconds": 0.05219970806501806,
+      "extra": {}
+    },
+    {
+      "index": 43,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 2.7627997894107965,
+        "modulation_depth": 2.134142813134635,
+        "pump_power": 2.789840527493384
+      },
+      "seed": 602173222,
+      "status": "constraint_violation",
+      "score": 0.07336096463645891,
+      "score_uncertainty": 0.0733609646364589,
+      "passed_constraints": false,
+      "constraint_reasons": [
+        "no_validated_frontier"
+      ],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.01904613809520208,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.14672192927291783,
+          "best_validated_noise": 0.020655614145416435,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        }
+      ],
+      "elapsed_seconds": 0.04727191594429314,
+      "extra": {}
+    },
+    {
+      "index": 44,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.646047303874791,
+        "modulation_depth": 2.790900337080391,
+        "pump_power": 3.2026830663672965
+      },
+      "seed": 1069973050,
+      "status": "failed",
+      "score": null,
+      "score_uncertainty": null,
+      "passed_constraints": false,
+      "constraint_reasons": [],
+      "failure_reason": "laser_unlock",
+      "message": "laser lost lock at high modulation depth and pump power",
+      "atomicity_ratio": null,
+      "folds": [],
+      "elapsed_seconds": 4.00003045797348e-06,
+      "extra": {}
+    },
+    {
+      "index": 45,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.982336770816687,
+        "modulation_depth": 0.8952267204795284,
+        "pump_power": 1.5324764644548552
+      },
+      "seed": 1041939683,
+      "status": "ok",
+      "score": 0.12957260494333664,
+      "score_uncertainty": 0.024121581498722205,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.027987606552562314,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.10545102344461443,
+          "best_validated_noise": 0.018364692966615675,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15369418644205884,
+          "best_validated_noise": 0.019157547708859492,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.045016709016636014,
+      "extra": {}
+    },
+    {
+      "index": 46,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 2.187598914940636,
+        "modulation_depth": 1.3363736379603626,
+        "pump_power": 2.041258917749421
+      },
+      "seed": 251122470,
+      "status": "ok",
+      "score": 0.17268817033910877,
+      "score_uncertainty": 0.0006464618825738343,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.01321434335443994,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1733346322216826,
+          "best_validated_noise": 0.015325069995697231,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.17204170845653494,
+          "best_validated_noise": 0.015550894975084733,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.04474212508648634,
+      "extra": {}
+    },
+    {
+      "index": 47,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.5454084112764632,
+        "modulation_depth": 1.98986000090309,
+        "pump_power": 0.7113310006528156
+      },
+      "seed": 2106117098,
+      "status": "ok",
+      "score": 0.14212691364093094,
+      "score_uncertainty": 0.026038052447727774,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.013731417909766255,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.11608886119320316,
+          "best_validated_noise": 0.015173341642039056,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.16816496608865872,
+          "best_validated_noise": 0.01636172778029613,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.047322917031124234,
+      "extra": {}
+    },
+    {
+      "index": 48,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 2.857264769822483,
+        "modulation_depth": 1.052642421941051,
+        "pump_power": 3.296290241368763
+      },
+      "seed": 1608686207,
+      "status": "ok",
+      "score": 0.11690131687624827,
+      "score_uncertainty": 0.019363943372334182,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.017081254807328243,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.13626526024858246,
+          "best_validated_noise": 0.022707555451154087,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.09753737350391409,
+          "best_validated_noise": 0.020738787948825773,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        }
+      ],
+      "elapsed_seconds": 0.04718608409166336,
+      "extra": {}
+    },
+    {
+      "index": 49,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.194036758039009,
+        "modulation_depth": 2.411524595434732,
+        "pump_power": 2.9414439937950494
+      },
+      "seed": 2065143097,
+      "status": "ok",
+      "score": 0.19806274825628606,
+      "score_uncertainty": 0.0009785151891552463,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.011178964983673509,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1970842330671308,
+          "best_validated_noise": 0.020307320979141705,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1990412634454413,
+          "best_validated_noise": 0.020082051140180194,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.048626875039190054,
+      "extra": {}
+    },
+    {
+      "index": 50,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.0710058214634137,
+        "modulation_depth": 1.1482738122696199,
+        "pump_power": 1.8943991748808942
+      },
+      "seed": 197792238,
+      "status": "ok",
+      "score": 0.14734866103595,
+      "score_uncertainty": 0.02968129606795866,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.012993861299452585,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.11766736496799135,
+          "best_validated_noise": 0.014699790509602594,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.17702995710390868,
+          "best_validated_noise": 0.01459400857921827,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.043499707942828536,
+      "extra": {}
+    },
+    {
+      "index": 51,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 9.973605620864333,
+        "modulation_depth": 1.8388671442141702,
+        "pump_power": 2.5369806110006325
+      },
+      "seed": 1556474545,
+      "status": "ok",
+      "score": 0.2308174339249508,
+      "score_uncertainty": 0.0012710508405469193,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.011834873807371868,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.23208848476549773,
+          "best_validated_noise": 0.014958299458367049,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.2295463830844039,
+          "best_validated_noise": 0.015389231680583166,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.045395374996587634,
+      "extra": {}
+    },
+    {
+      "index": 52,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 5.580739505232641,
+        "modulation_depth": 1.4304926680299304,
+        "pump_power": 1.3682476434976347
+      },
+      "seed": 629526660,
+      "status": "ok",
+      "score": 0.2749260197248236,
+      "score_uncertainty": 0.0011138817590871652,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.005793284660982956,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.2760399014839108,
+          "best_validated_noise": 0.008490746173844991,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.27381213796573645,
+          "best_validated_noise": 0.00855728716914895,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.051448625046759844,
+      "extra": {}
+    },
+    {
+      "index": 53,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.4807629677025798,
+        "modulation_depth": 2.0715992362798126,
+        "pump_power": 1.767265805704075
+      },
+      "seed": 1162275821,
+      "status": "ok",
+      "score": 0.24171453659691172,
+      "score_uncertainty": 0.0010672486552025238,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.01228943403925315,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.24278178525211425,
+          "best_validated_noise": 0.013469262388925386,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.2406472879417092,
+          "best_validated_noise": 0.013845903856666397,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.04503891710191965,
+      "extra": {}
+    },
+    {
+      "index": 54,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 1.7765607816520737,
+        "modulation_depth": 1.3901557938800717,
+        "pump_power": 0.34700190899886985
+      },
+      "seed": 1986274267,
+      "status": "ok",
+      "score": 0.15668324468749656,
+      "score_uncertainty": 0.0005728745004858898,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.016927301499257665,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15611037018701066,
+          "best_validated_noise": 0.018579925394761238,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15725611918798243,
+          "best_validated_noise": 0.018366360311928183,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.044496291084215045,
+      "extra": {}
+    },
+    {
+      "index": 55,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 2.316232548688721,
+        "modulation_depth": 1.7192687834293605,
+        "pump_power": 2.097037556648609
+      },
+      "seed": 594619332,
+      "status": "ok",
+      "score": 0.243243638178894,
+      "score_uncertainty": 0.0015820710503936936,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.011737654950593524,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.24166156712850032,
+          "best_validated_noise": 0.01367298101480638,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.2448257092292877,
+          "best_validated_noise": 0.013134641771793536,
+          "maximum_validated_capture": 1.0,
+          "validated_count": 4
+        }
+      ],
+      "elapsed_seconds": 0.045199334155768156,
+      "extra": {}
+    },
+    {
+      "index": 56,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.613181817323731,
+        "modulation_depth": 0.32285199528868386,
+        "pump_power": 3.5163549933107467
+      },
+      "seed": 1558804747,
+      "status": "constraint_violation",
+      "score": 0.0,
+      "score_uncertainty": 0.0,
+      "passed_constraints": false,
+      "constraint_reasons": [
+        "no_validated_frontier"
+      ],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.058679765369572354,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        }
+      ],
+      "elapsed_seconds": 0.04583133407868445,
+      "extra": {}
+    },
+    {
+      "index": 57,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 7.597172145297662,
+        "modulation_depth": 1.1295816165072405,
+        "pump_power": 3.747954427419859
+      },
+      "seed": 344997561,
+      "status": "constraint_violation",
+      "score": 0.0710237937487076,
+      "score_uncertainty": 0.0710237937487076,
+      "passed_constraints": false,
+      "constraint_reasons": [
+        "no_validated_frontier"
+      ],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.02626642604986532,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "no_validated_candidates",
+          "hypervolume": 0.0,
+          "best_validated_noise": null,
+          "maximum_validated_capture": null,
+          "validated_count": 0
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.1420475874974152,
+          "best_validated_noise": 0.021543576478749066,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.04737629205919802,
+      "extra": {}
+    },
+    {
+      "index": 58,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 3.640810969533371,
+        "modulation_depth": 1.5478151983219386,
+        "pump_power": 0.34778049352248996
+      },
+      "seed": 692725760,
+      "status": "ok",
+      "score": 0.15767752841743365,
+      "score_uncertainty": 0.0026098156826387525,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.013680620648453221,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.16028734410007242,
+          "best_validated_noise": 0.017916668195972447,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.15506771273479492,
+          "best_validated_noise": 0.018928759130403938,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.044520749943330884,
+      "extra": {}
+    },
+    {
+      "index": 59,
+      "kind": "random",
+      "settings": {
+        "modulation_frequency": 3.3074447923377273,
+        "modulation_depth": 0.9501968451658961,
+        "pump_power": 3.2349340059774683
+      },
+      "seed": 2082898963,
+      "status": "ok",
+      "score": 0.12477248832256321,
+      "score_uncertainty": 0.0237967065133296,
+      "passed_constraints": true,
+      "constraint_reasons": [],
+      "failure_reason": null,
+      "message": "",
+      "atomicity_ratio": 0.023246290129376675,
+      "folds": [
+        {
+          "development_scans": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.10097578180923361,
+          "best_validated_noise": 0.019707265457229915,
+          "maximum_validated_capture": 0.5,
+          "validated_count": 2
+        },
+        {
+          "development_scans": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "status": "partial_success",
+          "hypervolume": 0.14856919483589281,
+          "best_validated_noise": 0.02010180587175994,
+          "maximum_validated_capture": 0.75,
+          "validated_count": 3
+        }
+      ],
+      "elapsed_seconds": 0.0478969169780612,
+      "extra": {}
+    }
+  ],
+  "corrected_scores": [
+    0.20572528023150743,
+    0.0,
+    0.171616822427792,
+    0.16175412501544673,
+    0.056492518276330714,
+    0.15790714063982958,
+    0.19158832953048494,
+    0.16611201364794428,
+    0.23143962812113295,
+    0.22631468572953334,
+    0.09893568771287597,
+    0.1495851715877674,
+    0.1834494193546526,
+    0.15146483401812103,
+    0.26724035294049553,
+    0.0838766022277398,
+    null,
+    0.2937467812201807,
+    0.0,
+    0.18024883469588932,
+    0.3345480131545659,
+    0.18026623387313487,
+    0.1456041112787543,
+    0.14873218141871425,
+    0.11821973606338274,
+    0.14987112241635162,
+    0.09745588858871945,
+    0.1354205402563844,
+    null,
+    0.21114026073054082,
+    0.027858473686308706,
+    null,
+    0.19058272136107987,
+    0.0,
+    0.15497647131184067,
+    0.12867225996426315,
+    0.18411943267128644,
+    0.10875748959506527,
+    0.14818589546977526,
+    null,
+    0.10576851076727126,
+    0.060580974013070735,
+    0.0,
+    0.07336096463645891,
+    null,
+    0.12957260494333664,
+    0.17268817033910877,
+    0.14212691364093094,
+    0.11690131687624827,
+    0.19806274825628606,
+    0.14734866103595,
+    0.2308174339249508,
+    0.2749260197248236,
+    0.24171453659691172,
+    0.15668324468749656,
+    0.243243638178894,
+    0.0,
+    0.0710237937487076,
+    0.15767752841743365,
+    0.12477248832256321
+  ],
+  "drift_offsets": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "noise": {
+    "pooled_std": null,
+    "degrees_of_freedom": 0,
+    "groups": 0
+  },
+  "recommendation": {
+    "modulation_frequency": 6.220793946110267,
+    "modulation_depth": 1.8406887481226326,
+    "pump_power": 1.2211494843728568
+  },
+  "recommendation_index": 20,
+  "notes": []
+}

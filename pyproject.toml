@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simts-optimization"
+version = "0.1.0"
+description = "Bayesian optimization tools and experiments for SIMTS."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "cvxpy",
+    "osqp",
+    "clarabel",
+    "matplotlib",
+    "botorch>=0.12",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra -m 'not slow'"
+testpaths = ["tests"]
+markers = ["slow: multi-seed C5 benchmark (run with `pytest -m slow`)"]
