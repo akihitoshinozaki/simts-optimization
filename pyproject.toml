@@ -16,6 +16,7 @@ dependencies = [
     "clarabel",
     "matplotlib",
     "botorch>=0.12",
+    "websockets>=14",
 ]
 
 [project.optional-dependencies]
